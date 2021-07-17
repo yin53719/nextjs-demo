@@ -1,8 +1,8 @@
 FROM node:alpine
  
-RUN mkdir -p /app/src
-COPY ./src /app/src
-WORKDIR /app/src
+RUN mkdir -p /app
+COPY ./ /app
+WORKDIR /app
  
 ENV HOST "0.0.0.0"
  
